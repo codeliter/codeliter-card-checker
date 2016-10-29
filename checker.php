@@ -4,13 +4,11 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
 require_once('class/BinChecker.php');
 
 if ($_POST) {
-
-	$card_no	= (int) $_POST['card_no'];	// Credit Card number
-
+	// Credit Card number
+	$card_no	= (int) $_POST['card_no'];	
 	//Empty error to store errors
 	$error= array();
 
@@ -25,7 +23,6 @@ if ($_POST) {
 			$_SESSION[$key]= $value;
 		}
 	}
-
 
 	// If any error was thrown
 	if (count($error) > 0) {
@@ -45,10 +42,7 @@ if ($_POST) {
 			$_SESSION['msg']= ['error'=>$checker->message];
 			header('Location: index.php');
 		}
-		
 	}
-
-
 }
 else {
 	$_SESSION['msg']= ['error'=>"Please try again!"];
