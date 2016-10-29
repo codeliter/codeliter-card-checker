@@ -9,6 +9,9 @@
         }
     ],
     "require": {
+        "php": ">=5.3.0"
+    },
+    "require": {
         "flutterwave/flutterwave-php": "dev-master"
     },
     "autoload": {
