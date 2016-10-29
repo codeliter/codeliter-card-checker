@@ -1,0 +1,56 @@
+/**
+ * @Author: Abolarin Stephen
+ * License: GPL v2
+ * Year: 2016
+ */
+
+header {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	padding: 20px;
+}
+
+.logo-brand {
+	font-weight: bolder;
+	font-size: 2em;
+	letter-spacing: 1px;
+}
+
+.page {
+	border: 1px solid #DEDEDE;
+	padding: 25px 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.page {
+		/* border: none; */
+		width: 98%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+	.page {
+		/* border: none; */
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+.input-group, input, textarea, button {
+	margin-bottom: 20px;
+}
+
+.input-lg {
+	border-radius: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	display: none;
+}
