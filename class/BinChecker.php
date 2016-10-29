@@ -10,7 +10,6 @@ require_once('vendor/autoload.php');
 use Flutterwave\Bin;
 use Flutterwave\Flutterwave;
 
-
 class BinChecker
 {
 	public $message;
@@ -39,8 +38,7 @@ class BinChecker
 			$this->message= "Card not found";
 			return false;
 		}
-	 }
-	
+	 }	
 }
 
 ?>
