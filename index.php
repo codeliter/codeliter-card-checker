@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple payment interface for making transactions in a more securaed way">
+    <meta name="description" content="A simple interface for checking card validity">
     <meta name="author" content="CodeLiter">
 
     <title>CodeLiter Card Checker</title>
