@@ -1,0 +1,19 @@
+{
+    "name": "CodeLiter Card Checker",
+    "description": "A Library built on PHP for checking credit card validity",
+    "license": "GNU General Public License",
+    "authors": [
+        {
+            "name": "Abolarin Stephen",
+            "email": "hackzlord@gmail.com"
+        }
+    ],
+    "require": {
+        "flutterwave/flutterwave-php": "dev-master"
+    },
+    "autoload": {
+    "psr-4": {
+      "Flutterwave\\": "class/Flutterwave"
+    }
+  }
+}
