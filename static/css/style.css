@@ -23,20 +23,21 @@ header {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 998px) {
-	.page {
-		/* border: none; */
-		width: 50%;
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
 
 
 @media screen and (max-width: 767px) {
 	.page {
 		/* border: none; */
-		width: 420px;
+		width: 98%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+	.page {
+		/* border: none; */
+		width: 50%;
 		margin-right: auto;
 		margin-left: auto;
 	}
