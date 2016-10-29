@@ -26,10 +26,18 @@ The CodeLiter Card Checker is a small application that helps to verify if a card
 Please see the file called LICENSE.
 
 ### Contacts
+<<<<<<< HEAD
 If you want to contribute to this project contact me through my mail-hackzlord@gmail.com
+=======
+If you want to contribute to this project contact me through my mail - hackzlord@gmail.com
+>>>>>>> e1434bda879ac0544d6a7671bd134c565b3711e0
 
 Demo
 ----
 Visit this url for a working version of the website [HERE](https://codeliter-checker.herokuapp.com)
 
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> e1434bda879ac0544d6a7671bd134c565b3711e0
