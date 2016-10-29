@@ -23,8 +23,6 @@ header {
 }
 
 
-
-
 @media screen and (max-width: 767px) {
 	.page {
 		/* border: none; */
@@ -43,14 +41,6 @@ header {
 	}
 }
 
-@media screen and (max-width: 499px) {
-	.page {
-		border: none;
-		width: 400px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
 
 .input-group, input, textarea, button {
 	margin-bottom: 20px;
