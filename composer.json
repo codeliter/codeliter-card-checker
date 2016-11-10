@@ -1,6 +1,6 @@
 {
     "name": "CodeLiter Card Checker",
-    "description": "A Library built on PHP for checking credit card validity",
+    "description": "A Library built on PHP for checking credit card validity and other info",
     "license": "GNU General Public License",
     "authors": [
         {
